@@ -132,7 +132,7 @@ export default function Page() {
               project.attributes?.title ?? project.title ?? "Untitled Project";
             const description =
               project.attributes?.description ?? project.description ?? "";
-            let beforeImage =
+            const beforeImage =
               project.attributes?.image_before_after?.data?.attributes?.url ??
               project.image_before_after ??
               "/images/b-a1.jpg"; // default fallback

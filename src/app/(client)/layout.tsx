@@ -10,8 +10,12 @@ export const metadata: Metadata = {
   description: "A modern web application built with Next.js",
   keywords: ["nextjs", "react", "typescript"],
   authors: [{ name: "Your Name" }],
-  viewport: "width=device-width, initial-scale=1",
   robots: "index, follow",
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function ClientLayout({

@@ -30,7 +30,7 @@ const ComingSoon: React.FC = () => {
 
   const router = useRouter();
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = () => {
     router.push("/home");
   };
 
@@ -93,8 +93,8 @@ const ComingSoon: React.FC = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            Something amazing is on the way. We're putting the finishing touches
-            on our new experience.
+            Something amazing is on the way. We&apos;re putting the finishing
+            touches on our new experience.
           </motion.p>
         </motion.div>
 
